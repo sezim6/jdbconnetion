@@ -24,7 +24,7 @@ public class AppTest
         president.deleteById(3L);
         StudentRepository student = new StudentRepository();
         student.create();
-        Student student1 = new Student("Sezim Jyrgalbekova",17);
+        Student student1 = new Student("Sezim Satybaldyeva",17);
         student.save(student1);
         student.deleteById(1L);
         student.deleteAll();
