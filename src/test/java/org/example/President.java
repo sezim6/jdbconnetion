@@ -39,10 +39,9 @@ public class President {
 
     @Override
     public String toString() {
-        return "President{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", lastname='" + lastname + '\'' +
-                '}';
+        return "President " +
+                "id : " + id +
+                "name : " + name + '\'' +
+                "lastname : " + lastname + '\'' ;
     }
 }
